@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3229226319929981288}
   - component: {fileID: 6500044072030285881}
+  - component: {fileID: -2699295399023385563}
   m_Layer: 0
   m_Name: GridTile
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.208439, y: -2.8519983, z: 0}
-  m_LocalScale: {x: 0.688, y: 0.688, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,3 +85,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-2699295399023385563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2106189624614842618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e18dfb897316c34380f6bdbd5776d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzzles:
+  - {fileID: 4178048653064629260, guid: 40295ae85a2178940868c02f5102464a, type: 3}
+  - {fileID: 5700398349158628228, guid: 5a9e75774a3c76841925e74ca8d655e4, type: 3}
+  - {fileID: 563962301757482512, guid: c9e789245f7746b4bb032e12163b5b22, type: 3}
+  - {fileID: 505987393686235332, guid: 08c91f86187928b4eb422d4c2635a64a, type: 3}
+  - {fileID: 7759886095015167718, guid: ef3c57eef5b0f414fbc57d5889a9fef7, type: 3}
+  - {fileID: 8142181691555007794, guid: 9976ec8929a8a5141a48a1c9e9d54aa0, type: 3}
+  - {fileID: 3117263905260349632, guid: 797b78990addc424db26f0511530145f, type: 3}
